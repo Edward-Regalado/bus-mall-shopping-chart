@@ -14,6 +14,7 @@ function loadCart() {
   // document.appendChild('th');
   cartItem;
   console.log(cartItems);
+  // this displays the objects in the chart total, but not the item names. 
 
 }
 
@@ -27,7 +28,7 @@ function renderCart() {
 // TODO: Remove all of the rows (tr) in the cart table (tbody)
 function clearCart() {
   let clearCart = function(){
-    cart.splice(0, cart.lenght) //how to get a clear button in there?
+    cart.splice(0, cart.length) //how to get a clear button in there?
   }
 }
 
